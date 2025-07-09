@@ -22,7 +22,7 @@ def predict_url(url):
     return pred  # 0 = benign, 1 = malicious
 
 # Streamlit UI
-st.title("🔍 URL Classifier")
+st.title("🔍 URL Detector")
 user_input = st.text_input("Enter a URL")
 
 if st.button("Check"):
